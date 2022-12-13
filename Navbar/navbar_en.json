@@ -1,0 +1,14 @@
+{
+    "navbar_items": [
+        ["./resources/images/criam_logo.png", "./resources/images/criam_logo_white_drop.png"],
+        ["TECHNOLOGY", "./resources/icons/criam_just_the_logo.png"],
+        ["APPLICATIONS", "./resources/icons/criam_just_the_logo.png"],
+        ["COMPANY", "./resources/icons/criam_just_the_logo.png"],
+        ["PUBLICATIONS", "./resources/icons/criam_just_the_logo.png"],
+        ["TEAM", "./resources/icons/criam_just_the_logo.png"],
+        ["CONTACT US", ""],
+        ["EN", "PT"]
+    ],
+    "hamburguer_menu_icon": "./resources/icons/hamburger.png",
+    "hamburguer_menu_background_image": "./resources/images/hamburguer_menu_waves.svg"
+}
