@@ -1,0 +1,92 @@
+/////////////////////////////////////////////////////////////////////////////////
+// CUSTOM FONTS AND COLOURS
+/////////////////////////////////////////////////////////////////////////////////
+@font-face {
+    font-family: thin;
+    src: url(./Inter/Inter-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: light;
+    src: url(./Inter/Inter-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./Inter/Inter-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(./Inter/Inter-SemiBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./Inter/Inter-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: black;
+    src: url(./Inter/Inter-Black.otf) format('opentype');
+}
+
+:root {
+    --primary_colour: rgb(23, 60, 133);
+    --secondary_colour: rgb(39, 57, 94);
+    --tertiary_colour: rgb(41, 56, 84);
+    --quaternary_colour: rgba(185, 185, 185, 1.0);
+    --quinary_colour: rgba(255, 255, 255, 1.0);
+    --navbar_height: 85px;
+    --max_width: 1200px;
+    --up_arrow_height: 60px;
+    --up_arrow_width: 60px;
+}
+
+// export some variables so that they can be used inside .js files
+:export {
+    primary_colour: var(--primary_colour);
+    secondary_colour: var(--secondary_colour);
+    tertiary_colour: var(--tertiary_colour);
+    quaternary_colour: var(--quaternary_colour);
+    quinary_colour: var(--quinary_colour);
+    navbar_height: var(--navbar_height);
+    max_width: var(--max_width);
+    up_arrow_height: var(--up_arrow_height);
+    up_arrow_width: var(--up_arrow_width);
+    roadmap_month_width: var(--roadmap_month_width);
+}
+
+body{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    //background-color: rgb(243, 234, 232);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.app_navbar_desktop{
+    width: 100%;
+    max-height: var(--navbar_height);
+}
+
+.app_content_desktop{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}

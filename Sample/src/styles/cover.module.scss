@@ -1,0 +1,79 @@
+.root{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    max-width: var(--max_width);
+    margin: 0 auto;
+    margin-top: var(--navbar_height);
+    //border: 2px solid green;
+}
+
+.root_background{
+    height: 100%;
+    width: 100vw;
+    opacity: 1.0;
+    position: absolute;
+    z-index: -1000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //filter: saturate(0%);
+    //border: 2px solid red;
+    //box-shadow: inset 0px 1px 50px rgba(255, 255, 255, 1.0), inset 0px -1px 50px rgba(255, 255, 255, 1.0);
+}
+
+.root_background_video{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.root_background_fade{
+    height: 100%;
+    width: 100vw;
+    opacity: 0.15;
+    position: absolute;
+    z-index: -999;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //border: 1px solid green;
+}
+
+.main_text_div{
+    height: fit-content;
+    width: 100%;
+    max-width: var(--max_width);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    border-radius: 12px;
+    text-align: left;
+    //border: 1px solid green;
+}
+
+.red_text{
+    flex: 1;
+    flex-basis: 100%;
+    font-family: bold;
+    margin-right: 50px;
+    color: var(--secondary_colour);
+    word-wrap: break-word;
+    text-shadow: 1px 1px 20px rgb(251, 150, 150), 1px 1px 5px rgb(233, 83, 83);
+}
+
+.white_text{
+    flex: 1;
+    flex-basis: 100%;
+    font-family: bold;
+    margin-right: 50px;
+    color: rgb(228, 228, 228);
+    word-wrap: break-word;
+}
