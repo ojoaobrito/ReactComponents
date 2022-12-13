@@ -1,0 +1,10 @@
+{
+    "navbar_items": [
+        ["./resources/images/logo_expanded.png", "./resources/images/logo.png"],
+        ["SECTION", "./resources/images/logo.png"],
+        ["BUTTON", ""],
+        ["EN", "PT"]
+    ],
+    "hamburguer_menu_icon": "./resources/icons/hamburger.png",
+    "hamburguer_menu_background_image": "./resources/images/dots.svg"
+}

@@ -1,0 +1,39 @@
+.button_container{
+    height: var(--up_arrow_height);
+    width: var(--up_arrow_width);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: right 0.5s;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: table;
+    padding: 5px;
+    transform: translate(100px);
+    transition: all 0.25s ease-in-out;
+}
+
+.vertical_align{
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+    z-index: -10;
+    width: 100%;
+}
+
+.button_transition {
+    right: 15px;
+}
+
+.up_arrow{
+    margin: 0 auto;
+    margin-top: -12px;
+    position: absolute;
+    width: 25px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    //border: 1px solid red;
+}
